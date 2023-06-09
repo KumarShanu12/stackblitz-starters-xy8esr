@@ -1,6 +1,6 @@
 import * as React from 'react';
 const Home = (props) => {
- 
+ console.log('prop',props)
   return (
     <>
       <div>
@@ -20,6 +20,15 @@ const Home = (props) => {
               }}
             >
               Add To Cart
+            </button>
+
+
+            <button
+              onClick={() => {
+                props.removeFromCartHandler();
+              }}
+            >
+              remove
             </button>
           </div>
         </div>

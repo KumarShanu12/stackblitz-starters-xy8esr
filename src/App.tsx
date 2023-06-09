@@ -5,6 +5,7 @@ import HeaderContainer from './Containers/HeaderContainer';
 export default function App() {
   return (
     <div>
+      <HeaderContainer />
       <HomeContainer />
     </div>
   );

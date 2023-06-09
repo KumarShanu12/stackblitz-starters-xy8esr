@@ -1,4 +1,4 @@
-import  Header from '../Components/';
+import  Header from '../Components/Header';
 import { connect } from 'react-redux';
 import { addToCart } from '../Services/action/action';
 
@@ -10,3 +10,5 @@ const mapDispatchToProps = (dispatch) => ({
 });
 export default connect(mapStateToProps, mapDispatchToProps)(Header);
 // export default ;
+
+ 
